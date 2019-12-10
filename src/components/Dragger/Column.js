@@ -14,7 +14,7 @@ const TaskList = styled.div`
 	flex-grow: 1;
 	padding: 30px;
 	transition: all .2s ease-in-out;
-	background-color: ${props => props.isDraggingOver ? 'tomato' : '#f2f2f2'};
+	background: ${props => props.isDraggingOver ? '#ededed' : '#f6f6f6'};
 `
 
 export class Column extends Component {
